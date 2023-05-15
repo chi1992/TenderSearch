@@ -44,25 +44,21 @@ class Holder_webParser():
             var_state.set(f'案號[{idt_isastep}]適用ASTEP協定')
             dict_result[idt_isastep][8] = 'Yes'
 
-        # print(htmlObj_dateResult)
-
-        # with open('tmp_parsedResult3.json', 'w', encoding = 'utf-8') as f:
-        #     json.dump(dict_result, f, ensure_ascii = False, indent = 2)
 
         return dict_result
 
     def parse_rawToIsAgreement(self, cnt_isagreement):
+
+        if len(cnt_isagreement)  == 0: return []
+
         htmlObj = self.parser(cnt_isagreement)[0]
         result = []
 
         for row in htmlObj:
             item = self.get_cleanTxt(row[0].text)
             result.append(item)
-            #idt = self.get_cleanTxt(row[2].text)
-            #result.append(idt)
         return result
 
-        pass
 
     def parse_rawToList(self, cnt_raw):
 
@@ -95,19 +91,15 @@ class Holder_webParser():
         for idx_page in range(idx_pageStart, 5):
             var_state.set(f'嘗試擷取{agreement}第[{idx_page}]頁')
             ret = requests.get(self.form_searchUrl(date, date, idx_page, agreement))
+
             try:
                 tmp_cnt = str(ret.content, encoding = 'utf-8').split('<tbody>')[2].split('</tbody>')[0]
             except:
                 tmp_cnt = None
                 break
-            # print(self.parser(tmp_cnt)[0][0][0].text)
-            # print(idx_page)
             if self.parser(tmp_cnt)[0][0][0].text == '無符合條件資料': break
             
             cnt_raw += tmp_cnt
-        
-        # print(cnt_raw)
-        
         return cnt_raw
 
     def get_cleanTxt(self, txt_dirty):
