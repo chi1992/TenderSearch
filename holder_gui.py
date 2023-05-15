@@ -14,7 +14,6 @@ class Holder_gui():
     def __init__(self) -> None:
         
         self.root = tk.Tk() 
-        a = 5
         self.root.title('Tender Searcher v1.0 © by Chase Chi')
         self.root.iconbitmap('./resources/icons/icon.ico')
         self.root.resizable(False, False)
