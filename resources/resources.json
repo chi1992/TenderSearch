@@ -1,0 +1,290 @@
+{
+  "資料夾": "招標資料",
+  "檔名": "招標資料",
+  "關鍵字": [
+    "排水",
+    "水利",
+    "監測",
+    "水庫",
+    "水污染",
+    "下水道",
+    "雨水",
+    "底泥",
+    "水質",
+    "海岸",
+    "海管",
+    "海洋",
+    "水環境",
+    "海域",
+    "近海",
+    "海堤",
+    "河川",
+    "河口",
+    "河道",
+    "永續",
+    "水利局",
+    "水務局",
+    "河川局",
+    "水利署",
+    "水資源局",
+    "汙水",
+    "污水",
+    "逕流",
+    "醫院",
+    "氣候",
+    "低碳",
+    "零碳",
+    "減碳",
+    "碳權",
+    "節能",
+    "溫室氣體",
+    "地下水",
+    "碳排",
+    "農田水利署",
+    "溪",
+    "遊艇",
+    "泊區",
+    "遊艇泊區",
+    "農業",
+    "船舶"
+  ],
+  "title font": {
+    "name": "微軟正黑體",
+    "size": 8,
+    "bold": true,
+    "italic": false
+  },
+  "content font": {
+    "name": "微軟正黑體",
+    "size": 8,
+    "bold": false,
+    "italic": false
+  },
+  "image paths": {
+    "fileimport": [
+      "./resources/icons/fileimport.png",
+      2
+    ],
+    "gitfork": [
+      "./resources/icons/gitfork.png",
+      2
+    ],
+    "gitmerge": [
+      "./resources/icons/gitmerge.png",
+      2
+    ],
+    "gotofolder": [
+      "./resources/icons/gotofolder.png",
+      2
+    ],
+    "newfile": [
+      "./resources/icons/newfile.png",
+      1
+    ],
+    "openfile": [
+      "./resources/icons/openfile.png",
+      1
+    ],
+    "saveasfile": [
+      "./resources/icons/saveasfile.png",
+      1
+    ],
+    "savefile": [
+      "./resources/icons/savefile.png",
+      1
+    ],
+    "etabs": [
+      "./resources/icons/etabs.png",
+      1
+    ],
+    "clear": [
+      "./resources/icons/clear.png",
+      4
+    ],
+    "add": [
+      "./resources/icons/add.png",
+      1
+    ],
+    "modify": [
+      "./resources/icons/modify.png",
+      2
+    ],
+    "delete": [
+      "./resources/icons/delete.png",
+      1
+    ],
+    "up": [
+      "./resources/icons/up.png",
+      2
+    ],
+    "down": [
+      "./resources/icons/down.png",
+      2
+    ],
+    "addsection": [
+      "./resources/icons/addsection.png",
+      2
+    ],
+    "export": [
+      "./resources/icons/export.png",
+      2
+    ],
+    "export e2k": [
+      "./resources/icons/export e2k2.png",
+      1
+    ],
+    "superimposed": [
+      "./resources/icons/superimposed.png",
+      1
+    ],
+    "wallconfig": [
+      "./resources/icons/brickwallconfig.png",
+      1
+    ],
+    "floorconfig": [
+      "./resources/icons/flooring config.png",
+      1
+    ],
+    "flooredit": [
+      "./resources/icons/flooring edit.png",
+      1
+    ],
+    "wall edit": [
+      "./resources/icons/brickwall edit.png",
+      1
+    ],
+    "edit stories": [
+      "./resources/icons/edit story.png",
+      1
+    ],
+    "edit sections": [
+      "./resources/icons/edit section.png",
+      1
+    ],
+    "Walls": [
+      "./resources/icons/brickwall.png",
+      1
+    ],
+    "Floorings": [
+      "./resources/icons/flooring.png",
+      1
+    ],
+    "Beams": [
+      "./resources/icons/Beams.png",
+      1
+    ],
+    "Columns": [
+      "./resources/icons/Columns.png",
+      1
+    ],
+    "Slabs": [
+      "./resources/icons/Slabs.png",
+      1
+    ],
+    "excel": [
+      "./resources/icons/excel2.png",
+      1
+    ],
+    "execute": [
+      "./resources/icons/execute.png",
+      1
+    ],
+    "go to folder": [
+      "./resources/icons/go to folder.png",
+      1
+    ],
+    "copy CB": [
+      "./resources/icons/copy CB.png",
+      1
+    ],
+    "copy CR": [
+      "./resources/icons/copy CR.png",
+      1
+    ],
+    "newexcel": [
+      "./resources/icons/newexcel.png",
+      1
+    ],
+    "active": [
+      "./resources/icons/active.png",
+      1
+    ],
+    "inactive": [
+      "./resources/icons/inactive.png",
+      1
+    ],
+    "execute2": [
+      "./resources/icons/execute2.png",
+      1
+    ],
+    "left": [
+      "./resources/icons/left.png",
+      1
+    ],
+    "right": [
+      "./resources/icons/right.png",
+      1
+    ],
+    "cancel": [
+      "./resources/icons/cancel.png",
+      1
+    ],
+    "edit": [
+      "./resources/icons/edit.png",
+      1
+    ],
+    "done": [
+      "./resources/icons/done.png",
+      1
+    ],
+    "inprogress": [
+      "./resources/icons/inprogress.png",
+      1
+    ],
+    "pending": [
+      "./resources/icons/pending.png",
+      1
+    ],
+    "failed": [
+      "./resources/icons/failed.png",
+      1
+    ],
+    "connected": [
+      "./resources/icons/connected.png",
+      1
+    ],
+    "disconnected": [
+      "./resources/icons/disconnected.png",
+      1
+    ],
+    "connecting": [
+      "./resources/icons/connecting.png",
+      1
+    ],
+    "connect": [
+      "./resources/icons/connect.png",
+      1
+    ]
+  },
+  "image mapping": {
+    "new project": "newfile",
+    "open project": "openfile",
+    "open file": "openfile",
+    "save project": "savefile",
+    "save as project": "saveasfile",
+    "new model": "newfile",
+    "import model": "fileimport",
+    "fork model": "gitfork",
+    "merge model": "gitmerge",
+    "quick section": "addsection",
+    "edit weight": "superimposed",
+    "wall types": "wallconfig",
+    "flooring types": "floorconfig",
+    "edit floorings": "flooredit",
+    "edit walls": "wall edit",
+    "open in excel": "excel",
+    "open in file explorer": "go to folder",
+    "open example input": "newexcel",
+    "workbook": "excel"
+  }
+}
